@@ -1,3 +1,5 @@
+var slug = require('slug');
+
 function string_to_slug(str) {
 
     return slug(str);
@@ -21,4 +23,4 @@ function capitalize(string) {
 module.exports = {
     string_to_slug,
     capitalize
-}
+};
